@@ -1,0 +1,266 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 40px;
+    width: 960px;
+    padding-top: 18px;
+    text-align: center;
+    background: url("../images/grey_wash_wall.png");
+    color: white;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: #4aaaa5;
+    border-top-width: 8px;
+    border-top-style: solid;
+    
+}
+
+h1 {
+    display: inline-block;
+    margin-left: 18%;
+    margin-bottom: 0px;
+    line-height: 26px;
+    padding: 14px;
+    background-color: #4aaaa5;
+    color: white;
+    font-style: bold;
+    font-size: 34px;
+}
+
+#mainBody {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    /* bottom = footer height */
+    width: 960px;
+    height: 630px;
+    padding: 0;
+    background-image: url("../images/asanoha-400px.png");
+    border-top-color: #dddddd;
+    border-top-width: 2px;
+    border-top-style: solid;
+}
+
+.button {
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    color: #777777;
+    height: 50px;
+    width: 100px;
+    padding: 6px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+
+
+#mainImage {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 10px 10px 0px 2px;
+}
+
+#mainContent {
+    float: left;
+    padding: 20px;
+    background-color: white;
+    width: 524px;
+    height: 440px;
+    margin-left: 40px;
+    margin-top: 30px;
+    color: #777777;
+    border-color: #dddddd;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#sidebarMenu {
+    list-style: none;
+    padding: 0px;
+    margin-left: 15%;
+    
+}
+
+.logoButtons {
+    height: 24%;
+    width: 24%;
+    padding: 0;
+    transition-duration: 0.4s;
+   
+}
+
+.logoButtons:hover {
+
+    opacity: 0.5;
+}
+
+#headerMenu {
+    list-style: none;
+    float: right;
+    margin-right: 18%;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    display: inline;
+    color: grey;
+}
+
+#sidebar {
+    font-size: 18px;
+    float: left;
+    padding: 8px 18px 12px 18px;
+    background-color: white;
+    width: 22%;
+    height: 25%;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-color: #dddddd;
+    border-width: 2px;
+    border-style: solid;
+}
+
+hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 0;
+    color:#dddddd;
+}
+
+h2 {
+    color: #44b3c2;
+    margin-top: 0px;
+    margin-bottom: 6px;
+    padding: 0px;
+    font-size: 28px;
+}
+
+h3 {
+    margin-top: 17px;
+    margin-bottom: 9px;
+    text-align: center;
+    color: #4aaaa5;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+table {
+    padding: 0;
+    margin: 0;
+}
+
+.projectImage {
+    height: 190px;
+    width: 150px;
+    padding: 8px;
+    margin: 8px;
+    position: relative;
+}
+
+.projectButtons {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+#firstRow {
+    padding: 0;
+    margin: 0;
+}
+
+#placeholder {
+    display: inline-block;
+    width: 80px;
+}
+
+.banner {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    width: 130px;
+    background: #4aaaa5;
+    padding: 8px 10px 8px 10px;
+    color: white;
+    font-size: 14px;
+    z-index: 1;
+    text-align: center;
+}
+
+form {
+    margin-top: 16px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 6px 6px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 2px;
+    font-size: 14px;
+    color: grey;
+}
+
+input [type=submit] {
+    padding: 6px 6px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 2px;
+    font-size: 14px;
+    color: grey;
+}
+
+textarea {
+    padding: 6px 6px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 2px;
+    font-size: 14px;
+    color: grey;
+}
+
+#submit-button {
+
+    height: 28px;
+    width:80px;
+    padding: 4px;
+    font-size: 16px;
+    background-color: #4aaaa5;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+
+#submit-button:hover {
+    background-color: #999999;
+    color: white;
+
+}
