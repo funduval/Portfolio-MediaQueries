@@ -86,8 +86,8 @@ h1 {
     float: left;
     padding: 20px;
     background-color: white;
-    width: 524px;
-    height: 440px;
+    width: 60%;
+    height: 80%;
     margin-left: 40px;
     margin-top: 30px;
     color: #777777;
@@ -186,6 +186,7 @@ table {
     position: relative;
     padding: 0;
     margin: 0;
+    display: inline-block;
 }
 
 #firstRow {
@@ -194,7 +195,7 @@ table {
 }
 
 #placeholder {
-    display: inline-block;
+    display: inline;
     width: 80px;
 }
 
@@ -275,6 +276,7 @@ textarea {
 
           #mainContent {
            background-image: url("../assets/images/asanoha-400px.png");
+            height:1170px;
 
           }
 
@@ -282,6 +284,7 @@ textarea {
 
             background-color: black;
             background-image: none;
+
           }
 
           #headerMenu{
@@ -290,12 +293,33 @@ textarea {
           
           h1 {
 
-        margin-left: 4%;
+         margin-left: 4%;
          display:block;
          max-width: 230px;
          text-align: center;
 
         }
+
+
+        .placeholder {
+
+        display:block;
+          
+        }
+
+        .projectButtons {
+
+         display: block
+
+
+        }
+
+        footer {
+
+           width:100%;
+            bottom: -830px;
+        }
+
 
         
 
