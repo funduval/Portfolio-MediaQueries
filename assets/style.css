@@ -16,7 +16,7 @@ footer {
     width: 960px;
     padding-top: 18px;
     text-align: center;
-    background: url("../images/grey_wash_wall.png");
+    background: url("../assets/images/grey_wash_wall.png");
     color: white;
     font-size: 12px;
     margin-left: auto;
@@ -48,7 +48,7 @@ h1 {
     width: 960px;
     height: 630px;
     padding: 0;
-    background-image: url("../images/asanoha-400px.png");
+    background-image: url("../assets/images/asanoha-400px.png");
     border-top-color: #dddddd;
     border-top-width: 2px;
     border-top-style: solid;
@@ -262,5 +262,50 @@ textarea {
 #submit-button:hover {
     background-color: #999999;
     color: white;
-
 }
+
+    @media screen and (max-width: 800px) {
+          
+          body {
+            background-image: url("../assets/images/asanoha-400px.png");
+
+
+          }
+
+
+          #mainContent {
+           background-image: url("../assets/images/asanoha-400px.png");
+
+          }
+
+          #mainBody {
+
+            background-color: black;
+            background-image: none;
+          }
+
+          #headerMenu{
+            display: block;
+          }
+          
+          h1 {
+
+        margin-left: 4%;
+         display:block;
+         max-width: 230px;
+         text-align: center;
+
+        }
+
+        
+
+
+
+
+
+
+
+    }
+
+         
+
