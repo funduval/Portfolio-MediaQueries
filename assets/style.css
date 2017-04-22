@@ -4,7 +4,6 @@ html {
 }
 
 body {
-
     font-family: 'Roboto', sans-serif;
 }
 
@@ -24,7 +23,6 @@ footer {
     border-top: #4aaaa5;
     border-top-width: 8px;
     border-top-style: solid;
-    
 }
 
 h1 {
@@ -37,6 +35,12 @@ h1 {
     color: white;
     font-style: bold;
     font-size: 34px;
+}
+
+
+h2 {
+
+    text-align: center;
 }
 
 #mainBody {
@@ -73,8 +77,6 @@ h1 {
     color: white;
 }
 
-
-
 #mainImage {
     float: left;
     height: 200px;
@@ -83,6 +85,8 @@ h1 {
 }
 
 #mainContent {
+
+
     float: left;
     padding: 20px;
     background-color: white;
@@ -100,7 +104,6 @@ h1 {
     list-style: none;
     padding: 0px;
     margin-left: 15%;
-    
 }
 
 .logoButtons {
@@ -108,11 +111,9 @@ h1 {
     width: 24%;
     padding: 0;
     transition-duration: 0.4s;
-   
 }
 
 .logoButtons:hover {
-
     opacity: 0.5;
 }
 
@@ -145,7 +146,7 @@ hr {
     margin-top: 4px;
     margin-bottom: 4px;
     padding: 0;
-    color:#dddddd;
+    color: #dddddd;
 }
 
 h2 {
@@ -248,9 +249,8 @@ textarea {
 }
 
 #submit-button {
-
     height: 28px;
-    width:80px;
+    width: 80px;
     padding: 4px;
     font-size: 16px;
     background-color: #4aaaa5;
@@ -265,71 +265,44 @@ textarea {
     color: white;
 }
 
-    @media screen and (max-width: 800px) {
-          
-          body {
-            background-image: url("../assets/images/asanoha-400px.png");
-
-
-          }
-
-
-          #mainContent {
-           background-image: url("../assets/images/asanoha-400px.png");
-            height:1170px;
-
-          }
-
-          #mainBody {
-
-            background-color: black;
-            background-image: none;
-
-          }
-
-          #headerMenu{
-            display: block;
-          }
-          
-          h1 {
-
-         margin-left: 4%;
-         display:block;
-         max-width: 230px;
-         text-align: center;
-
-        }
-
-
-        .placeholder {
-
-        display:block;
-          
-        }
-
-        .projectButtons {
-
-         display: block
-
-
-        }
-
-        footer {
-
-           width:100%;
-            bottom: -830px;
-        }
-
-
-        
-
-
-
-
-
-
-
+@media screen and (max-width: 800px) {
+    body {
+        background-image: url("../assets/images/asanoha-400px.png");
     }
-
-         
-
+    #mainContent {
+        background-image: url("../assets/images/asanoha-400px.png");
+        height: 1200px;
+        width: 20%;
+        margin-left: 8%;
+    }
+    #mainBody {
+        background-color: black;
+        background-image: none;
+    }
+    #headerMenu {
+        display: block;
+    }
+    h1 {
+        margin-left: 17%;
+        display: block;
+        max-width: 230px;
+        text-align: center;
+    }
+    .placeholder {
+        display: block;
+    }
+    .projectButtons {
+        display: block;
+    }
+    footer {
+        width: 40%;
+        bottom: -970px;
+    }
+    #sidebar {
+        clear: left;
+        height: 14%;
+        margin-left: 7%;
+        margin-top: 40px;
+        padding: 10px 20px 40px 20px;
+    }
+}
