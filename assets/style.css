@@ -1,7 +1,10 @@
-html {
+html{
     position: relative;
     min-height: 100%;
+    width: 100%;
 }
+
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -265,10 +268,16 @@ textarea {
     color: white;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     body {
         background-image: url("../assets/images/asanoha-400px.png");
     }
+
+    html {
+
+        max-width: 100%;
+    }
+    
     #mainContent {
         background-image: url("../assets/images/asanoha-400px.png");
         height: 1200px;
