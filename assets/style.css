@@ -274,16 +274,22 @@ textarea {
         height: 1200px;
         width: 20%;
         margin-left: 8%;
+        margin-top: 70px;
     }
     #mainBody {
         background-color: black;
         background-image: none;
     }
     #headerMenu {
+        position:absolute;
+        z-index: 1;
         display: block;
+        clear:left;
+        margin-left: 20%;
+        
     }
     h1 {
-        margin-left: 17%;
+        margin-left: 18%;
         display: block;
         max-width: 230px;
         text-align: center;
